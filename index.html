@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <html lang= "en">
+    <title>markdown-to-html</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="firstDiv">
+        <div id="boxFirstDiv">
+            <div id="nameQuote">
+                <h1>Camille Marchandon</h1>
+                <h2> Developper in training at BeCode.org </h2>  
+                <p id = "quote"> <i>“Sometimes we have to go deep inside ourselves to solve our problems.”</i> 
+                <br> – Patrick Star.</p>
+            </div>
+            <img src = "profilPic.jpg" alt = "Picture of miself in a greenhouse">
+        </div>
+    </div>
+    <div id="table">
+        <table>
+                <tr>
+                    <th>Birthday</th>
+                    <th>Favorite color</th>
+                    <th>Favorite food</th>
+                    <th>Pineapple on pizza</th>
+                </tr>
+                <tr>
+                    <td>05/11</td>
+                    <td>Pink i think?</td>
+                    <td>Big fat ramen</td>
+                    <td>
+                        <ul id="checkBoxList">
+                            <li> 
+                                <input type="checkbox" class="myCheckbox" onchange="redirectToVideo()">
+                                <label for="myCheckbox">Yes</label>
+                            </li>
+                             <li> 
+                                <input type="checkbox" class="myCheckbox" checked="false">
+                                <label for="myCheckbox">No.</label>
+                            </li>
+                        </ul>    
+                    </td>
+                </tr>
+            </table>
+<!-- Function to redirect on meme when clicked on "yes"-->
+            <script>
+                function redirectToVideo() {
+                    window.location.href = "https://www.videomeme.in/wp-content/uploads/2022/11/no-God-no-please-no.mp4?_=1";
+                }
+            </script>
+<!--End of the function-->
+    </div>
+        <div id="hobbies">
+            <h3> My hobbies: </h3>
+            <ul> 
+                <li> Traveling
+                <li>History 
+                <li>Fine arts 
+                <li> Pedagogy 
+                <li>And learning news things !
+            </ul>
+        </div>
+    <div id="aboutMe">
+        <h4>You can always count on me when you need help. I'm a good listener and (i hope so) a good explainer. 
+            I can be patient and give you tips for having a better learning method if needed !</h4>
+        <h5>A funny story about myself : I'm terrible at math. Really, don't ask me for a simple division i will definitely give you the wrong answer.  
+            I still don't know how i passed the final math exam at hight shcool. 
+            I also don't know how to remembers numbers, even after 6 years with the same phone numbers i STILL need to take a look on my notes before giving it to someone else. 
+            I also struggle to remember houses number so i definitely need to note everything. </h5>  
+        <h6>TL;DR : Don't count on me for numbers related matters, sorry. </h6> 
+    </div>
+    <footer>
+        <a href="https://github.com/BathshebaDeepijan/Markdown-challenge-hamilton"target="_blank">Bathsheba</a> |
+        <a href="https://github.com/CMarchandon/markdown-challenge" target="_blank">Camille</a> |
+        <a href="https://github.com/clamaha/markdown-challenge" target="_blank">Clara</a>
+    </footer>
+</body>
+
+</html> 
