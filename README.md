@@ -1,5 +1,13 @@
 # markdown-to-html
 
-Personal Introduction in HTML
+This presentation is a small training project created for BeCode.org. It utilizes HTML and CSS to create a simple and interactive presentation. You can view the live presentation by clicking the following link:
 
-Welcome to the Personal Introduction exercise! This exercise focuses on creating a personal introduction using HTML markup. By following the instructions below, you will be able to showcase your personal information and practice using HTML tags effectively.
+[View Presentation](https://cmarchandon.github.io/markdown-to-html/)
+
+## Note
+
+This does not represent my current work; it was created in a learning context. However, it will serve as a good example of the exercises expected for future trainees. So i keep it on public.
+
+## Author
+
+- [Camille]([https://github.com/yourgithubusername](https://github.com/CMarchandon)https://github.com/CMarchandon)
