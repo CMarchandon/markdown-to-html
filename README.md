@@ -10,4 +10,4 @@ This does not represent my current work; it was created in a learning context. H
 
 ## Author
 
-- [Camille]([https://github.com/CMarchandon])
+- [Camille](https://github.com/CMarchandon)
