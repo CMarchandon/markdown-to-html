@@ -1,6 +1,6 @@
 # markdown-to-html
 
-This presentation is a small training project created for BeCode.org. It utilizes HTML and CSS to create a simple and interactive presentation. You can view the live presentation by clicking the following link:
+This presentation is a small training project created for BeCode.org. It utilizes HTML and CSS to create a simple presentation. You can view the live presentation by clicking the following link:
 
 [View Presentation](https://cmarchandon.github.io/markdown-to-html/)
 
